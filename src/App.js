@@ -1,16 +1,26 @@
 import React, { Component } from 'react';
+import Photo from './Photo.js';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="app">
+        <h1>HUJI SHOES</h1>
+        <p><a
+            href="https://www.producthunt.com/posts/huji-cam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            +
+        </a></p>
+        <Photo name={'2018-05-25'} />
+        <Photo name={'2018-05-24-3'} />
+        <Photo name={'2018-05-24-2'} />
+        <Photo name={'2018-05-24-1'} />
+        <Photo name={'2018-05-23'} />
+        <Photo name={'2018-05-22'} />
+        <Photo name={'2018-05-21'} />
       </div>
     );
   }
