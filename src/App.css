@@ -18,9 +18,10 @@ h1 {
   font-size: 75px;
   width: 50px;
   line-height: 70px;
+  z-index: 1;
 }
 
-p {
+h1 ~ p {
   position: fixed;
   top: 55px;
   left: 5px;

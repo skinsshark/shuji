@@ -1,4 +1,12 @@
 img {
-  width: 300px;
-  padding: 80px;
+  width: 30vw;
+  min-width: 300px;
+  margin: 80px;
+  background-size: cover;
+  filter: blur(30px);
+  transition: 1s linear filter;
+}
+
+img.ready {
+  filter: blur(0);
 }

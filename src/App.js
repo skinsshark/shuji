@@ -14,6 +14,8 @@ class App extends Component {
           >
             +
         </a></p>
+
+        {/* COULDDO: sync from somewhere ie drive with file name as caption */}
         <Photo name={'2018-05-26'} />
         <Photo name={'2018-05-25'} />
         <Photo name={'2018-05-24-3'} />
