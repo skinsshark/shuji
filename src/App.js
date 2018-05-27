@@ -14,6 +14,7 @@ class App extends Component {
           >
             +
         </a></p>
+        <Photo name={'2018-05-26'} />
         <Photo name={'2018-05-25'} />
         <Photo name={'2018-05-24-3'} />
         <Photo name={'2018-05-24-2'} />
